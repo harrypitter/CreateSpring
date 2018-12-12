@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-practice-spring" />
+        <module name="spring-vip-spring" />
         <module name="springIoc" />
         <module name="VersionOne" />
       </profile>

@@ -56,7 +56,6 @@ public class BeanDefinitionReader {
         if(this.registyBeanClasses.contains(className)){
             BeanDefinition beanDefinition = new BeanDefinition();
             beanDefinition.setBeanClassName(className);
-            //factoryBean在beanDefinition中的名字
             beanDefinition.setFactoryBeanName(lowerFirstCase(className.substring(className.lastIndexOf(".") + 1)));
             return beanDefinition;
         }
